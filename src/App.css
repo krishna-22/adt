@@ -6,13 +6,36 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+h5{
+  margin-top: 10px;
+margin-bottom: 10px;
+}
+.button{
+padding-left: 5px;
+padding-right: 5px;
+background-color: forestgreen;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.dropmenu
+{
+  padding-left: 10px;
+  padding-right: 10px;
+  color:azure;
+  background-color: black;
+}
+.movie
+{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
 
+.input
+{
+  margin-right: 15px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -25,7 +48,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #bda040;
 }
 
 @keyframes App-logo-spin {
